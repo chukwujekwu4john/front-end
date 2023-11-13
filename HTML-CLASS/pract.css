@@ -1,0 +1,222 @@
+*{  padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+nav{
+    background-image:linear-gradient(to right,rgba(8,70,10,0.7),rgba(214,123,40,0.4)), url(/image/medical-check-up-1024x574.jpg);
+    height: 600px;
+    border-radius: 0px 0px 150px 0px;
+    background-size: cover;
+}
+.flex-nav{
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.logo{
+    border-radius: 20px;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    padding-right: 50px;
+    font-size: 25px;
+    color: white;
+}
+li{
+    padding-left: 30px;
+    text-shadow: 1px 1px red;
+}
+.position1{
+    color: white;
+    padding-left: 40px;
+}
+.contact{
+    font-size: 60px;
+}
+.position1 .overview{
+    font-size: 25px;
+}
+.flexed-h1{
+    padding-bottom: 30px;
+    font-size: 40px;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px   
+}
+.flexed{
+    padding-right: 50px;
+    margin: 20px;
+}
+.flexed2 .flexed2-image{
+    padding-top: 50px;
+    border-radius: 60px 60px 10px 10px;
+    margin-top: 50px;
+}
+.flexed-p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.flex-container button{
+    background-color: blue;
+    height: 50px;
+    width: 200px;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 10px;
+    border-style: none;
+}
+a{
+    color: white;
+}
+
+.section1{
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+.section1 .our-team{
+    text-align: center;
+    padding-bottom: 50px;
+
+}
+.section1 .our-team-h1{
+    font-size: 50px;
+    padding-bottom: 40px;
+}
+.section1 .section1-p{
+    font-size: 20px;
+}
+.section1 .pic-flex{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.section1 .flexed-pic{
+    height: 60vh;
+    width: 60vh;
+    border-radius: 10px;
+}
+.section1 .flexed-pic-h1{
+    text-align: center;
+    font-size: 30px;
+}
+.section1 .flexed-pic-p{
+    text-align: center;
+    font-size: 20px;
+    color: gray;
+}
+.section1 .icon{
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+    margin: 20px;
+}
+.section1 .social-icon{
+    color: blue;
+}
+.social-icon:hover{
+    color: purple;
+}
+
+.pink-background{
+    background-color: royalblue;
+    height: 400px;
+     padding-left: 10px;
+    padding-right: 50px;
+    color: white;
+}
+.pink-background .pink-background-div .bing{
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+}
+.bing:hover{
+    background-color: white;
+    color: blue;
+}
+.pink-background .pink-background-div{
+    padding-left: 700px;
+}
+.pink-background .pink1{
+    font-size: 40px;
+    padding-top: 50px;
+}
+.pink-background .pink2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.pink-background-kene{
+    height: 70vh;
+    width: 60vh;
+    position: absolute;
+    left: 190px;
+    top: 2116px;
+    border-radius: 10px;
+}
+.pink-background-dance{
+    height: 75vh;
+    width: 60vh;
+    position: absolute;
+    left: 0px;
+    top: 2030px;
+    border-radius: 10px;
+}
+
+
+.client-container{
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+.client{
+    font-size: 50px;
+    padding-bottom: 20px;
+    padding-top: 80px;
+}
+.client-p{
+    font-size: 20px;
+}
+.client-logo{
+    display: flex;
+    justify-content: space-around;
+    padding: 120px;
+}
+.partners{
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.partners-p{
+    font-size: 20px;
+}
+#wissense{
+    height: 40vh;
+    padding-top: 100px;
+    padding-right: 1000px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    background-color: royalblue;
+    color: white;
+}
+.footer{
+    padding-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 20px;
+}

@@ -1,0 +1,1221 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.main-body {
+    width: 100%;
+    height: 100vh;
+    border-bottom-right-radius: 100px;
+    background-image: linear-gradient(to right,rgba(8,70,10,0.7),rgba(214,123,40,0.4)), url(services3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(192, 185, 185);
+    color: white;
+
+}
+
+.navbarr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-left: 80px;
+    padding-right: 140px;
+
+}
+
+.nav-links {
+    display: flex;
+    color: white;
+    gap: 20px;
+
+}
+
+.nav-links a {
+    font-size: 20px;
+    color: white;
+}
+
+.nav-comment {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 80px;
+    padding-top: 70px;
+}
+
+
+.nav-comment2 h1 {
+    font-size: 60px;
+    font-weight: bold;
+    
+
+}
+
+.com-but {
+    padding-left: 14px;
+    /* padding-top: 40px; */
+}
+
+.com-click {
+    padding: 12px 15px;
+    border-radius: 2px;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(38, 38, 184);
+    color: white;
+
+}
+
+#mission {
+    text-align: center;
+    padding-top: 0px;
+}
+@media screen and(max-width:1075px) {
+    #mission{
+        width: 200px;
+    }
+        
+    
+}
+
+#mission h1 {
+    /* text-align: center; */
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+#mission h5 {
+    /* text-align: center; */
+    padding-top: 20px;
+    font-size: larger;
+    font-weight: lighter;
+
+}
+
+#mission a {
+    /* text-align: center; */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.main-word {
+    padding-top: 80px;
+    padding-left: 20px;
+}
+
+.main-word h1 {
+    font-size: 60px;
+}
+
+.main-word h3 {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.main-word1 {
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 2px 2px 2px 2px;
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+.navbar-brand {
+    border-bottom-right-radius: 50px;
+
+}
+.home-blue-background{
+    background-color: royalblue;
+    height: 400px; 
+    width: 90%;
+    padding-left: 10px;
+    padding-right: 50px;
+    color: white;
+    position: relative;
+}
+.home-blue-background-pix1{
+    position: absolute;
+    /* left: 150px;
+    top: 1665px; */
+    border-radius: 10px;
+}
+.home-blue-background-pix2{
+    position: absolute;
+    right: 910px;
+    top: -90px; 
+    border-radius: 10px;
+    
+}
+.blue-advice h1{
+    padding-left: 700px;
+    padding-top: 50px;
+}
+.blue-advice p{
+    padding-left: 700px;
+    padding-top: 20px;
+}
+.click-blue-background{
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+    position:absolute;
+    left: 700px; 
+    top: 250px;
+    border-style: ridge;
+    border-color: white;
+
+}
+
+.info-flex {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+    gap: 20px;
+    background-color: white;
+
+}
+
+.info-flex2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 240px;
+    padding-right: 240px;
+    background-color: white;
+}
+
+.flexed {
+    width: 350px;
+    height: 200px;
+    background-color: white;
+    padding-left: 70px;
+    padding-bottom: 40px;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 10px 20px 30px lightgray;
+
+}
+
+.flexex:hover {
+    background-color: lightgray;
+}
+
+
+.flexed h4 {
+    font-size: 30px;
+    padding-left: 20px;
+
+
+}
+
+.flexed p {
+    font-size: 20px;
+    padding-left: 20px;
+}
+.flexed i{
+    padding-top: 20px;
+    border-radius: 60px;
+    width: 20px;
+    height: 20px;
+    color: blue;
+}
+.pink-background{
+    background-color: royalblue;
+    height: 400px;
+    
+    
+    padding-left: 10px;
+    padding-right: 50px;
+    color: white;
+}
+.pink-background .pink-background-div .bing{
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+    position:absolute;
+    right: 430px;
+    top:2100px ;
+    border-style: ridge;
+    border-color: white;
+}
+.bing:hover{
+    background-color: white;
+    color: blue;
+}
+.pink-background .pink1{
+    font-size: 40px;
+    padding-top: 50px;
+    padding-left: 700px;
+}
+.pink-background .pink2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 700px;
+}
+.pink-background-kene{
+    height: 70vh;
+    width: 60vh;
+    position: absolute;
+    left: 190px;
+    top: 1817px;
+    border-radius: 10px;
+}
+.pink-background-dance{
+    height: 75vh;
+    width: 60vh;
+    position: absolute;
+    left: 0px;
+    top: 1750px;
+    border-radius: 10px;
+}
+
+.blue-background{
+    background-color: royalblue;
+    height: 400px;
+    padding-left: 10px;
+    padding-right: 50px;
+    color: white;
+}
+.blue-background .blue-background-div .bing{
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+    position:absolute;
+    right: 430px;
+    top:2100px ;
+    border-style: ridge;
+    border-color: white;
+}
+.bing:hover{
+    background-color: white;
+    color: blue;
+}
+
+.blue-background .blue1{
+    font-size: 40px;
+    padding-top: 50px;
+    padding-left: 700px;
+}
+.blue-background .blue2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 700px;
+}
+.blue-background-kene{
+    height: 70vh;
+    width: 60vh;
+    position: absolute;
+    left: 190px;
+    top: 1px;
+    border-radius: 10px;
+}
+.blue-background-dance{
+    height: 75vh;
+    width: 60vh;
+    position: absolute;
+    left: 0px;
+    top: -50px;
+    border-radius: 10px;
+}
+
+.click-us {
+    padding-left: 50px;
+    padding-bottom: 200px;
+
+}
+
+.click-blue-background:hover {
+    background-color: white;
+    color: blue;
+}
+
+.click-now {
+    padding: 12px 15px;
+    border-radius: 2px;
+    width: 100px;
+    height: 30px;
+    border-style: ridge;
+    border-color: white;
+    color: white;
+
+
+}
+
+.click-now:hover {
+    background-color: white;
+    color: blue;
+}
+
+.img-advice1 {
+    padding-left: 100px;
+    padding-bottom: 500px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.img-advice2 {
+    padding-left: 100px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.warning {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 60px;
+}
+
+.our-word {
+    padding-top: 100px;
+
+}
+
+.directors {
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    gap: 40px;
+    padding-top: 70px;
+}
+
+.directors2 {
+    width: 1000px;
+    height: 300px;
+    background-color: white;
+    font-size: large;
+    text-align: justify;
+    box-shadow: 10px 20px 30px lightgray;
+
+}
+
+.directors #img1 {
+    height: 50px;
+    width: 70px;
+    border-radius: 60px;
+}
+
+.directors #img2 {
+    height: 50px;
+    width: 70px;
+    border-radius: 60px;
+}
+
+.clients {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.clients-logo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.clients h1 {
+    /* text-align: center; */
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.clients h3 {
+    /* text-align: center; */
+    padding-top: 20px;
+    font-size: larger;
+    font-weight: lighter;
+
+}
+
+.clients-logo p {
+    font-size: large;
+    font-weight: bold;
+}
+
+.partners {
+    padding-top: 20px;
+}
+
+.last-img {
+    padding-right: 900px;
+    padding-bottom: 50px;
+    padding-left: 70px;
+}
+
+.foot {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+    color: white;
+}
+
+#stif {
+    /* border-radius: 0px 0px 2px 2px; */
+    background-color: lightblue;
+    /* padding-right: 10px; */
+    position: relative;
+}
+
+#pow {
+    padding-left: 500px;
+}
+
+.about-header {
+    background-image: linear-gradient(rgba(211, 16, 16, 0.2), rgba(44, 23, 236, 0.705)), url(services3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: white;
+    width: 100%;
+    height: 70vh;
+    border-bottom-right-radius: 60px;
+}
+
+.about-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-left: 80px;
+    padding-right: 140px;
+}
+
+.about-links {
+    display: flex;
+    border-bottom-right-radius: 100px;
+    gap: 20px;
+}
+
+.about-links a {
+    font-size: 20px;
+    color: white;
+}
+
+.about-headcomment {
+    padding-left: 80px;
+    padding-top: 80px;
+    color: white;
+}
+
+.about-headcomment h1 {
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.about-headcomment h4 {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.about-advice1 {
+    display: flex;
+    justify-content: space-between;
+    
+    padding-right: 80px;
+    padding-top: 20px;
+    gap: 10px; 
+    background-color: white;
+    height: 70vh;
+}
+.about-advice2{
+    padding-left: 80px;
+    height: 90vh;
+}
+
+.about-advice {
+    padding-top: 70px;
+}
+.about-advice2 h1 {
+    font-size: 40px;
+}
+.about-advice2 p{
+    padding-left: 7px;
+} 
+
+.about-click1 {
+    padding: 12px 15px;
+    border-radius: 2px;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(38, 38, 184);
+    color: white;
+}
+
+.about-img-advice {
+    padding-top: 100px;
+}
+
+.about-img-advice1 {
+    border-radius: 5px 5px 5px 5px;
+}
+
+.work-force {
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.work-force h1 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.work-force h4 {
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.work-force-pix {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    background-color: white;
+
+}
+
+.work-force-pix1 {
+    border-radius: 5px 5px 5px 5px;
+}
+.about-profile{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    gap: 20px;
+    background-color: white;
+}
+.about-profile1{
+    padding-left: 120px;
+}
+.about-profile3{
+    padding-right: 120px;
+}
+.about-profile1 i{
+    background-color: blue;
+    color: white;
+    border-radius: 60px;
+    padding: 7px 7px;
+
+   
+}
+.about-profile2 i{
+    background-color: blue;
+    color: white;
+    border-radius: 60px;
+    padding: 7px 7px;
+}
+.about-profile3 i{
+    background-color: blue;
+    color: white;
+    border-radius: 60px;
+    padding: 7px 7px;
+}
+.advice-about-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+}
+
+.about-clients {
+    text-align: center;
+    padding-top: 200px;
+}
+
+.about-clients-logo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.about-clients h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+
+.about-partners {
+    padding-top: 200px;
+}
+
+.about-last-img {
+    padding-right: 900px;
+    padding-bottom: 50px;
+    padding-left: 70px;
+}
+
+.about-foot {
+    padding-top: 120px;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(60, 60, 122);
+    color: white;
+}
+#about-stif {
+    border-radius: 0px 0px 2px 2px;
+    background-color: lightblue;
+    /* padding-right: 20px; */
+    position: relative;
+}
+
+
+.what-head {
+    background-image: linear-gradient(rgba(211, 16, 16, 0.2), rgba(44, 23, 236, 0.705)), url(services1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: white;
+    width: 100%;
+    height: 70vh;
+    border-bottom-right-radius: 60px;
+}
+
+.what-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-left: 80px;
+    padding-right: 140px;
+
+}
+
+.what-links {
+    display: flex;
+    gap: 20px;
+
+}
+
+.what-links a {
+    font-size: 20px;
+    color: white;
+}
+
+.contact-head {
+    width: 100%;
+    height: 100vh;
+    border-bottom-right-radius: 100px;
+    background-image: linear-gradient(rgba(211, 16, 16, 0.2), rgba(44, 23, 236, 0.705)), url(services3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: whit;
+    color: white;
+}
+
+.what-comment2 {
+    padding-top: 80px;
+    padding-left: 80px;
+    color: white;
+}
+
+.what-comment2 h1 {
+    font-size: 40px;
+    font-size: 40px;
+}
+
+.know-us {
+    text-align: center;
+    padding-top: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.know-us h1 {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.consult-experts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding-top: 40px;
+    padding-right: 140px;
+    position: relative;
+}
+
+.consultant {
+    display: flex;
+    
+}
+.consultant-advice h1,p{
+    padding-left: 60px;
+}
+.consultant-advice h1{
+    font-size: 40px;
+}
+.consultant-advice p{
+    font-size: 20px;
+}
+.consulting-time{
+    background-color: blue;
+    color: white;
+    position: absolute;
+    left: 650px;
+    bottom: 50px;
+    width: 370px;
+    height: 200px;
+    border-radius: 5px;
+
+}
+.consulting-time i{
+    width: 30px;
+    color: white;
+    border-radius: 60px;
+}
+.consulting-time h1{
+    color: white;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.consulting-time p{
+    padding-left: 50px;
+}
+.med-equip-consults{
+    background-color: blue;
+    color: white;
+    position: absolute;
+    left: 650px;
+    bottom: 50px;
+    width: 370px;
+    height: 200px;
+    border-radius: 5px;
+}
+.improve-health-quality{
+    background-color: blue;
+    color: white;
+    position: absolute;
+    top: 60px;
+    right: 745px;
+    width: 370px;
+    height: 200px;
+    border-radius: 5px;
+
+} 
+
+.what-click {
+    font-weight: bolder;
+    padding: 12px 15px;
+    border-style: outset;
+    border-color: blue;
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    color: blue;
+}
+
+.what-click:hover {
+    background-color: blue;
+    color: white;
+}
+
+.consultant-pix1 {
+    border-radius: 15px;
+}
+
+.improve-health {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    padding-top: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    position: relative;
+}
+.improve-health-quality h1,p{
+    padding-left: 60px;
+}
+.improve-health-quality h1{
+    padding-top: 20px;
+}
+.improve-health2 p {
+    padding-top: 50px;
+    font-size: 20px;
+    padding-left: 60px;
+}
+
+.improve-health2 h1 {
+    font-size: 38px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    padding-left: 60px;
+
+}
+
+.what-click2 {
+    position: absolute;
+    right: 480px;
+    font-weight: bolder;
+    padding: 12px 15px;
+    border-style: outset;
+    border-color: blue;
+    border-radius: 5px;
+    width: 120px; 
+    height: 40px;
+    background-color: white;
+    color: blue;
+}
+
+.what-click2:hover {
+
+    background-color: blue;
+    color: white;
+}
+
+
+
+.medical-equip {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    padding-top: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    position: relative;
+}
+.medical-sales h1{
+    font-size: 40px;
+    padding-top: 40px;
+    padding-left: 70px;
+}
+.medical-sales p{
+    padding-left: 70px;
+}
+.med-equip-consults h1,p{
+    padding-left: 20px;
+
+}
+.health-policy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding-top: 40px;
+    padding-left: 65px;
+    padding-right: 65px;
+    position:relative;
+}
+
+.health-policy1{
+    background-color: blue;
+    color: white;
+    position: absolute;
+    left: 300px;
+    bottom: 350px;
+    width: 370px;
+    height: 200px;
+    border-radius: 5px;
+
+}
+.health-policy1 h1{
+    padding-top: 40px;
+    padding-left: 20px;
+}
+.health-policy2 h1{
+    font-size: 38px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    padding-left: 20px;
+
+}
+.health-policy2 p{
+    font-size: 20px;
+    padding-left: 20px;padding-top: 10px;
+
+}
+
+.what-click3 {
+    
+    position: absolute;
+    left: 150px;
+    font-weight: bolder;
+    padding: 12px 15px;
+    border-style: outset;
+    border-color: blue;
+    border-radius: 5px;
+    width: 120px; 
+    height: 40px;
+    background-color: white;
+    color: blue;
+}
+
+.what-click3:hover {
+    background-color: blue;
+    color: white;
+    
+}
+
+
+
+
+.what-click4 {
+    position: absolute;
+    right: 480px;
+    font-weight: bolder;
+    padding: 12px 15px;
+    border-style: outset;
+    border-color: blue;
+    border-radius: 5px;
+    width: 120px; 
+    height: 40px;
+    background-color: white;
+    color: blue;
+    /* padding-bottom: 800px;
+    font-weight: bolder;
+    padding: 12px 15px;
+    border-style: outset;
+    border-color: blue;
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    color: blue; */
+}
+
+.what-click4:hover {
+    background-color: blue;
+    color: white;
+}
+
+/* .what-advice-container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-left: 150px;
+    padding-right: 150px;
+
+}
+
+.what-advice1 {
+    width: 700px;
+    height: 400px;
+    background-color: blue;
+    color: white;
+}
+
+.what-advice1 h1 {
+    padding-top: 80px;
+    padding-left: 80px;
+}
+
+.what-advice1 p {
+    padding-top: 30px;
+    padding-left: 80px;
+} */
+
+.what-click5 {
+
+    font-weight: bolder;
+    padding: 12px 15px;
+    border-style: outset;
+    border-color: white;
+    border-radius: 5px;
+    color: white;
+}
+.what-blue-background{
+    background-color: royalblue;
+    height: 400px;
+    padding-left: 10px;
+    padding-right: 50px;
+    color: white;
+    position:relative;
+}
+.hover-link{
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+    position:absolute;
+    left: 700px;
+    border-style: ridge;
+    border-color: white;
+}
+.hover-link:hover{
+    background-color: white;
+    color: blue;
+}
+
+.what-blue-background .what-blue1{
+    font-size: 40px;
+    padding-top: 50px;
+    padding-left: 700px;
+}
+.what-blue-background .what-blue2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 700px;
+}
+.what-blue-background-kene{
+    height: 70vh;
+    width: 60vh;
+    position: absolute;
+    left: 190px;
+    top: 1px;
+    border-radius: 10px;
+}
+.what-blue-background-dance{
+    height: 75vh;
+    width: 60vh;
+    position: absolute;
+    left: 0px;
+    top: -94px; 
+    border-radius: 10px;
+}
+
+.what-click5:hover {
+    background-color: white;
+    color: blue;
+}
+
+.what-foot {
+    padding-top: 30px;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(60, 60, 122);
+    color: white;
+}
+
+.contact-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-left: 80px;
+    padding-right: 140px;
+}
+
+.contact-nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.contact-nav-links a {
+    font-size: 20px;
+    color: white;
+}
+
+.contact-comment {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 80px;
+    padding-top: 70px;
+}
+
+.contact-comment h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.contact-comment p {
+    font-size: 20px;
+}
+
+.contact-info {
+    padding-top: 60px;
+    text-align: center;
+}
+
+.contact-info h1 {
+    font-size: 40px;
+}
+
+.contact-info p {
+    font-size: 20px;
+}
+
+.contact-address {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.contact-address1 {
+    width: 350px;
+    height: 200px;
+    background-color: white;
+    padding-left: 70px;
+    padding-bottom: 40px;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 10px 20px 30px lightgray;
+}
+
+#contact-logo {
+    /* border-radius: 20px; */
+}
+
+.message-section {
+    text-align: center;
+}
+
+.message-section h1 {
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.message-section p {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.contact-form {
+    text-align: center;
+    padding-bottom: 40px;
+    padding-left: 500px;
+}
+.blue-background{
+    height: 400px;
+    background-color: blue;
+    position: relative;
+    padding-left: 10px;
+}
+.what-advice{
+    position: absolute;
+    padding-left: 700px;
+}

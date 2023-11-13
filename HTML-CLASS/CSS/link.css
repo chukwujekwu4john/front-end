@@ -1,0 +1,24 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+header{
+background-color: goldenrod;
+
+}
+li{
+    list-style:none;
+    display:inline;
+}
+a{
+color:white;
+list-style-position: none;
+text-decoration: none;
+
+}
+.main-body{
+    background-color: black;
+    color: white;
+
+}

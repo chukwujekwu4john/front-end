@@ -1,0 +1,24 @@
+.info-flex{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: blue;
+}
+.box{
+    background-color:white; 
+    height: 200px;
+    width: 340px;
+    border-radius: 0px 0px 20px 20px;
+    padding-left: 30px;
+    padding-top: 200px;
+}
+.info-flex2{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: pink;
+}

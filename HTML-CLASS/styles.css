@@ -1,0 +1,377 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+.fan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 140px;
+    padding-right: 140px;
+    background-color: goldenrod;
+}
+.nav-links{
+    display: flex;
+    
+}
+.fan .nav-links li{
+    padding-left: 30px;
+}
+.fan .nav-links li a{
+    font-size: 17px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.logo{
+    font-family: tahoma;
+
+}
+.fan .nav-links li .contact-link{
+    padding: 10px 15px;
+    background-color: brown;
+    color: white;
+    border-radius: 5px;
+}
+.fan .nav-links li .contact-link:hover{
+    background-color: red;
+}
+
+/*css for my header-section*/
+.header-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(services3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.header-two{
+    padding-top: 100px;
+    padding-left: 70px;
+}
+.header-section .header-two h4{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+.header-section .header-two h1{
+    font-size: 55px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: white;
+    padding-top: 25px;
+}
+.header-section .header-two p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+.started-link{
+    padding: 10px 15px;
+    background-color: brown;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.started-link:hover{
+    background-color:goldenrod;
+}
+/*styles.css*/
+/* .grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid: gap 20px;
+
+}
+.grid-item{
+    width:100%;
+} */
+
+.grid-container{
+    width: 100%;
+    height: 120vh;
+    background-color: rgb(239,226,250);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.grid-container .grid2 h1{
+    text-align: center;
+    font-size: 54px;
+    padding-bottom: 20px;
+}
+.grid-container .grid2 p{
+    text-align: center;
+    font-size: 20px;
+    
+}
+.grid2{
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+.hero-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 0px 50px;
+    gap: 30px;
+}
+.box{
+    background-color: white;
+    padding: 50px 30px;
+}
+.box .box2 h4{
+    font-size: 24px;
+    padding-bottom: 20px;
+
+}
+.box .box2 p{
+    font-size: 17px;
+}
+/*styling our icons*/
+.hero-grid .box .box2 i{
+    color: rgb(230,44,11);
+    font-size: 30px;
+    padding-bottom: 22px;
+}
+.partners-container{
+    width:100%;
+    height:57vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.partners-container .grid2 h1{
+    text-align: center;
+    font-size: 54px;
+    padding-bottom: 20px;
+}
+.partners-container .grid2 p{
+    text-align: center;
+    font-size: 20px;
+}
+.all-partners2{
+    margin: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.one-partner{
+    border-style: ridge;
+}
+
+
+
+.ceo-section{
+    background-color: rgb(240, 223, 223);
+    
+   
+}
+.ceo-section2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-top:110px;
+    grid-gap: 40px;
+    padding-left: 20px;
+    
+}
+.ceo-section h1{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 70px;
+}
+.his-image .ceo-img{
+    width: 600px;
+}
+.his-words{
+    padding-top: 40px;
+}
+
+
+.cta{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.cta-section{
+    margin: 80px 80px;
+    background-color: aquamarine;
+}
+.testimony{
+    background-color:  lightgrey;
+    padding-bottom: 200px;  
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.testimony div h1{
+    font-weight: bold;
+    padding-top: 60px;
+    font-size:40px;
+}
+.test1{
+    padding-top: 20px;
+    font-size: 20px;
+
+}
+.testimony div h3{
+    font-weight: bold;
+    padding-top: 20px;
+    font-size: 20px; 
+}
+.testimony div img{
+    padding-top: 20px;
+}
+
+.testimony div h3{
+    font-weight: bold;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.test2{
+    font-size: 10px;
+}
+@media screen and (max-width : 880px){
+    .grid-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media screen and (max-width : 615px){
+    .grid-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .grid-container .grid2 h1{
+        text-align: center;
+        font-size: 34px;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .service{
+    width: 100%;
+    height: 70vh;
+    background-color:white ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.service h1{
+    text-align: center;
+    font-size: 54px;
+    padding-top: 60px;
+}
+.service p{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.partners{
+    padding-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.partners .box{
+    border-style: ridge;
+    gap: none;
+    /* padding-top: 150px; */
+/* }
+
+.last-container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(240, 223, 223);
+    padding-top: 80px;
+}
+.last-container h1{
+    font-size: 40px;
+    text-align: center;
+}
+.last-container .p-name{
+    padding-bottom: 60px; 
+}  */
+
+/* .last-p{
+    padding-top: 60px;
+}
+.last-p2{
+    padding-top: 60px;
+    padding-left: 40px;
+}
+.last-p{
+    padding-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-left:30px;
+    gap: 30px;
+}
+.p-name{
+    padding-left: 200px;
+    /* padding-bottom: 20px; */
+/* }
+.last-div .box .box2{
+    padding-top: 70px;
+    width: 500px;  
+    height: 50vh;
+    text-align: center;
+    background-color: white;
+    margin-right: 200px;
+    margin-left:200px */ */
+      
+/* }
+
+.last-div h1{
+    color: rgb(236, 2, 2);
+}
+.last-div p{
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+.last-div a{
+    padding: 15px 30px;
+    background-color: rgb(236, 2, 2);
+    color: white;
+    border-radius: 5px;
+    padding-bottom: 30px;
+}
+.foot{ */
+    /* display: flex;
+    justify-content: space-between; */
+    /* align-items: center; */
+    /* text-align: left; */
+    /* width: 100%;
+    height: 3vh;
+    background-color: rgb(0, 0, 133);
+    color: white;
+    padding-bottom: 35px;
+}
+.foot .box3{
+    padding: 5px 10px;
+    position: absolute;
+    background-color: red;
+    right: 50px;  
+} 
+
+
